@@ -11,9 +11,9 @@ import java.util.logging.Logger;
 
 
 public class DBConnect {
-    private static String DB_URL = "jdbc:mysql://localhost:8080/taskdb";
+    private static String DB_URL = "jdbc:mysql://localhost:3306/taskdb";
     private static String USER_NAME = "root";
-    private static String PASSWORD = "1234567890";
+    private static String PASSWORD = "";
      public static void main(String args[]) {
         try {
             // connnect to database 'testdb'
